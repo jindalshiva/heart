@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientgreen"
+    tools:context=".Tracker">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="207dp"
+        android:alpha="0.4"
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:fontFamily="@font/keepcalm"
+        android:hint="Weight(Kg)"
+        android:inputType="number"
+        android:padding="10sp"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="284dp"
+        android:alpha="0.4"
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:fontFamily="@font/keepcalm"
+        android:hint="Weight(Kg)"
+        android:inputType="number"
+        android:padding="10sp"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="235dp"
+        android:alpha="0.4"
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:fontFamily="@font/keepcalm"
+        android:hint="Weight(Kg)"
+        android:inputType="number"
+        android:padding="10sp"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="134dp"
+        android:alpha="0.4"
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:fontFamily="@font/keepcalm"
+        android:hint="Temoerature"
+        android:inputType="number"
+        android:padding="10sp"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/edit_round"
+        android:fontFamily="@font/keepcalm"
+        android:text="Continue" />
+
+</RelativeLayout>

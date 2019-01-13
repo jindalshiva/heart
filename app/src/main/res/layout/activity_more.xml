@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientgreen"
+    tools:context=".more">
+
+    <Button
+        android:id="@+id/poll"
+        android:layout_width="301dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="77dp"
+        android:background="@drawable/edit_round"
+        android:fontFamily="@font/keepcalm"
+        android:padding="15sp"
+        android:text="Air Pollution Around you"
+        android:textSize="16sp"
+        app:srcCompat="@drawable/healthy" />
+
+    <Button
+        android:id="@+id/doctor"
+        android:layout_width="301dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="169dp"
+        android:background="@drawable/edit_round"
+        android:fontFamily="@font/keepcalm"
+        android:padding="15sp"
+        android:text="Virtual Doctor"
+        android:textSize="16sp"
+        app:srcCompat="@drawable/healthy" />
+
+</RelativeLayout>

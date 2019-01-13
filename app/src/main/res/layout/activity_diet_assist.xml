@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+
+    android:layout_height="match_parent"
+    tools:context=".pollution">
+
+    <WebView
+        android:id="@+id/webpoll"
+        android:layout_width="match_parent"
+        android:layout_height="590dp"
+        android:windowSoftInputMode="adjustResize"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+    </WebView>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/webpoll"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/edit_round"
+        android:fontFamily="@font/keepcalm"
+        android:text="CONTINUE" />
+</RelativeLayout>

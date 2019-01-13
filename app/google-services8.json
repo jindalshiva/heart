@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "242125624607",
+    "firebase_url": "https://cybercup19ignite.firebaseio.com",
+    "project_id": "cybercup19ignite",
+    "storage_bucket": "cybercup19ignite.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242125624607:android:162f44f0d16dbbd1",
+        "android_client_info": {
+          "package_name": "com.example.fgw.heart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242125624607-315sbeff1ueooiqlc0vtji3g1ntgs0qq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl_VaS91vdmjVv93DwxZoAfPQ52ICQdss"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

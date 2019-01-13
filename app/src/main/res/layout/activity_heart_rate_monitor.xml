@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/layout">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="600sp"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <com.example.fgw.heart.HeartbeatView
+                android:id="@+id/image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"></com.example.fgw.heart.HeartbeatView>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300sp"
+            android:layout_marginLeft="180dp"
+            android:text="@string/default_text"
+            android:textSize="88dp"></TextView>
+
+    </LinearLayout>
+    <SurfaceView android:id="@+id/preview"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp">
+    </SurfaceView>
+</LinearLayout>
+</LinearLayout>

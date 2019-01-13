@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".food_label">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="120sp"
+        android:layout_height="124sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="245dp"
+        android:alpha="0.45"
+        app:srcCompat="@drawable/idimage" />
+
+    <Button
+        android:id="@+id/imageButton"
+        android:layout_width="304dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="107dp"
+        android:background="@drawable/button"
+        android:padding="15sp"
+        android:text="Continue"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        app:srcCompat="@drawable/button" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp"
+        android:text="TextView" />
+
+</RelativeLayout>
