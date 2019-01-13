@@ -17,7 +17,7 @@ public class dietAssist extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_diet_assist);
-        String url = "https://console.dialogflow.com/api-client/demo/embedded/dd223de6-157a-42d5-bf99-d149bfc1f29d";
+        String url = "https://console.dialogflow.com/api-client/demo/embedded/bd65f236-bfcb-489e-a21b-501dd6290161";
         button1 = findViewById(R.id.button2);
         webView = findViewById(R.id.webpoll);
 //        webView.setWebViewClient();
