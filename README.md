@@ -1,4 +1,4 @@
-##heart
+# heart
  
 This is one good health app
 
@@ -14,11 +14,10 @@ Using Android Studio
 ##Screenshots
 
 
-
-![WhatsApp Image 2019-04-14 at 11 04 38 AM(2)](https://user-images.githubusercontent.com/33796163/56089176-cbe9e500-5eac-11e9-952f-f9ef6b69a180.jpeg)
-![WhatsApp Image 2019-04-14 at 11 04 37 AM](https://user-images.githubusercontent.com/33796163/56089178-ce4c3f00-5eac-11e9-855d-6a891bcf3170.jpeg)
-![WhatsApp Image 2019-04-14 at 11 04 37 AM(1)](https://user-images.githubusercontent.com/33796163/56089182-d310f300-5eac-11e9-92f8-d1d86607fb54.jpeg)
-![WhatsApp Image 2019-04-14 at 11 04 37 AM(2)](https://user-images.githubusercontent.com/33796163/56089185-d5734d00-5eac-11e9-8296-edb3e90381b2.jpeg)
+<img src="https://user-images.githubusercontent.com/33796163/56089176-cbe9e500-5eac-11e9-952f-f9ef6b69a180.jpeg" width=200px height=400px/>
+<img src="https://user-images.githubusercontent.com/33796163/56089178-ce4c3f00-5eac-11e9-855d-6a891bcf3170.jpeg" width=200px height=400px/>
+<img src="https://user-images.githubusercontent.com/33796163/56089182-d310f300-5eac-11e9-92f8-d1d86607fb54.jpeg" width=200px height=400px/>
+<img src="https://user-images.githubusercontent.com/33796163/56089185-d5734d00-5eac-11e9-8296-edb3e90381b2.jpeg" width=200px height=400px/>
 
 ##Contributors
 Shivam Grover, Shivani Jindal
